@@ -1,0 +1,26 @@
+{
+  "name": "cute-fs",
+  "version": "0.1.0",
+  "description": "Experimental piercer stronghold. No tests.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "cute-fs": "src/cli.js"
+  },
+  "scripts": {
+    "postinstall": "echo 'Installed.`",
+    "test": "node ./src/test.js",
+    "cli": "node ./src/cli.js"
+  },
+  "exports": "./src/index.js",
+  "keywords": [
+    "cute"
+  ],
+  "author": "",
+  "license": "CC-BY-4.0",
+  "homepage": "",
+  "repository": "git+https://github.com/user/cute-fs.git",
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
+}
