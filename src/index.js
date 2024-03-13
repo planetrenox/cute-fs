@@ -112,4 +112,3 @@ export function url(inputPath)
     const handler = new UrlHandler();
     return handler.url(inputPath);
 }
-

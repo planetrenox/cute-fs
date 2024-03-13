@@ -1,7 +1,5 @@
-// import dotenv from 'dotenv'; dotenv.config(); // process.env.EDIT_ME // import { _, __ } from 'cute-con';
-import { testMe } from './index.js';
+import { url } from './index.js';
 
-const test = () => console.log("tested test.js");
-
-test();
-testMe();
+//url('C:/Users/SDS/WebstormProjects/cute-fs/overwritefile').hard.overwrite();
+url('C:/Users/SDS/WebstormProjects/cute-fs/fuwritedir/').soft.write();
+url('C:/Users/SDS/WebstormProjects/cute-fs/overdir/').hard.overwrite();
