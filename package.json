@@ -1,26 +1,15 @@
 {
   "name": "cute-fs",
-  "version": "0.1.1",
-  "description": "Experimental piercer stronghold. No tests.",
-  "type": "module",
+  "version": "0.2.0",
+  "description": "Just 2 functions for writing to files. Either soft or hard.",
   "main": "src/index.js",
-  "bin": {
-    "cute-fs": "src/cli.js"
-  },
-  "scripts": {
-    "postinstall": "echo 'Installed.`",
-    "test": "node ./src/test.js",
-    "cli": "node ./src/cli.js"
-  },
-  "exports": "./src/index.js",
   "keywords": [
-    "cute"
+    "cute",
+    "fs",
+    "write",
+    "simple"
   ],
-  "author": "",
+  "author": "planetrenox",
   "license": "CC-BY-4.0",
-  "homepage": "",
-  "repository": "git+https://github.com/user/cute-fs.git",
-  "dependencies": {
-    "axios": "^1.6.7"
-  }
+  "repository": "git+https://github.com/user/cute-fs.git"
 }
