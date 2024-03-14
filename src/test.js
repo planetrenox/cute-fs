@@ -1,5 +1,6 @@
-import { url } from './index.js';
+import  fURL  from './index.js';
 
 //url('C:/Users/SDS/WebstormProjects/cute-fs/overwritefile').hard.overwrite();
-url('C:/Users/SDS/WebstormProjects/cute-fs/fuwritedir/').soft.write();
-url('C:/Users/SDS/WebstormProjects/cute-fs/overdir/').hard.overwrite();
+fURL('nn').soft.write('K');
+fURL('./mnn').soft.write();
+fURL('C:/Users/SDS/WebstormProjects/cute-fs/overdir/c.tx').hard.overwrite();

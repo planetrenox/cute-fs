@@ -15,10 +15,10 @@ npm install -g cute-fs
 
 
 ```JavaScript
-import URL from 'cute-fs';
-URL('C:\\WindowsLikePathOr/LinuxLike/Path.txt').soft.write(`any`);
-URL('path/to/file.txt').hard.overwrite(`any`);
+import fURL from 'cute-fs';
+fURL('C:\\WindowsLikePathOr/LinuxLike/Path.txt').soft.write('any text');
+fURL('path/to/file.txt').hard.overwrite(`any text`);
 ```
 
-We use URL because we want cute-fs to be universal. Soon we will add ability to read which will include local and web.
+The writing functionality for web URLs is not documented because it is still in testing. Feel free to look at the repo and you are encouraged to get creative.
 

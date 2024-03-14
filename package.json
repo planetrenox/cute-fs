@@ -1,14 +1,16 @@
 {
   "name": "cute-fs",
-  "version": "0.2.0",
-  "description": "Just 2 functions for writing to files. Either soft or hard.",
+  "version": "0.3.0",
+  "description": "cute-fs is a special type of filesystem because it can write to both local and web. (currently in development, help encouraged)",
   "main": "src/index.js",
+  "type": "module",
   "keywords": [
     "cute",
     "fs",
     "write",
     "simple"
   ],
+  "files": ["src"],
   "author": "planetrenox",
   "license": "CC-BY-4.0",
   "repository": "git+https://github.com/user/cute-fs.git"
