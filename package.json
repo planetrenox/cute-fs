@@ -1,6 +1,6 @@
 {
   "name": "cute-fs",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "cute-fs is a special type of filesystem because it can write to both local and web. (currently in development, help encouraged)",
   "main": "src/index.js",
   "type": "module",
@@ -8,10 +8,16 @@
     "cute",
     "fs",
     "write",
-    "simple"
+    "simple",
+    "web"
   ],
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "author": "planetrenox",
   "license": "CC-BY-4.0",
-  "repository": "git+https://github.com/user/cute-fs.git"
+  "repository": "git+https://github.com/user/cute-fs.git",
+  "dependencies": {
+    "cute-con": "~1.1"
+  }
 }
